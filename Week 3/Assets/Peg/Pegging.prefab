@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7916099469571164879}
   m_Layer: 0
   m_Name: Pegging
-  m_TagString: Untagged
+  m_TagString: peg
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -106,7 +106,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c82886451446884e89a56bbf9b1cee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ImportantPeg: 0
-  MarkedForDeath: 0
+  importantPeg: 0
+  markedForDeath: 0
   timer: 10
   hitMat: {fileID: 2100000, guid: 7025c39304252114aaa8d893e2614edc, type: 2}
+  importantRate: 25
+  importantMat: {fileID: 0}
