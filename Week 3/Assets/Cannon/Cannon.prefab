@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 2809015506080731568}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8034713625515409261}
   m_Father: {fileID: 0}
@@ -120,7 +120,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b68a02dabaf91704193c1f2a3bdd04f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sphereTemplate: {fileID: 0}
+  sphereTemplate: {fileID: 1331006076345604980, guid: 2ef6ad73b467b394ca50f08ec3f11944,
+    type: 3}
   spawnedSphere: {fileID: 0}
   sphereSpeed: 0
 --- !u!1 &4668332057283353753
